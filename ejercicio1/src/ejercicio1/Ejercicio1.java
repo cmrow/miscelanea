@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author guest-Dario - Carlos - Loca
+ * @author guest-Dario - Carlos - Loca usted
  */
 public class Ejercicio1 {
     
