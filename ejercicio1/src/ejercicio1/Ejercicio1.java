@@ -46,6 +46,14 @@ public class Ejercicio1 {
                     num2 = entrada.nextInt();
                     areaTriangulo(num1,num2);			
                     solicitarNumero();
+             case 2:
+                System.out.println("SUMA DE DOS NÚMEROS");
+                System.out.println("Indique el primer sumando");
+                num1 = entrada.nextInt();
+                System.out.println("Indique el segundo sumando");
+                num2 = entrada.nextInt();
+                suma(num1,num2);
+                solicitarNumero();        
         }
             
            
@@ -235,6 +243,12 @@ public class Ejercicio1 {
         "80. Elabore un programa que permita introducir un arreglo de 8 elementos de tipo entero. El\n" +
         "programa mostrara un arreglo en donde muestre un 1 para los primos y un 0 para los no\n" +
         "primos.");
+    }
+    
+    private static void suma(double num1, double num2) {
+        double suma;
+        suma = num1 + num2;
+            System.out.printf("La Suma es: " + suma);
     }
 
     
